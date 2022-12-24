@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adehenry : JavaScript Count Down timer</title>
+</head>
+<body>
+    <section id="time">
+        <p id="text">⏰ Count Down to New Year ⏰</p>
+
+        <div class="circle one" style="--circle-color: #ffffff">
+            <div class="dots day-dot"></div>
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="day-circle"></circle>
+            </svg>
+            <div id="day">00<br><span>Days</span></div>
+        </div>
+
+        <div class="circle two" style="--circle-color: #ff2972">
+            <div class="dots hour-dot"></div>
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="hour-circle"></circle>
+            </svg>
+            <div id="hour">00<br><span>Hours</span></div>
+        </div>
+
+        <div class="circle three" style="--circle-color: #fee800">
+            <div class="dots minute-dot"></div>
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="minute-circle"></circle>
+            </svg>
+            <div id="minute">00<br><span>Minutes</span></div>
+        </div>
+
+        <div class="circle four" style="--circle-color: #04fc43">
+            <div class="dots seconds-dot"></div>
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="seconds-circle"></circle>
+            </svg>
+            <div id="second">00<br><span>Seconds</span></div>
+        </div>
+
+    </section>
+    <section  id="new-year">
+        <h2>2023</h2>
+        <p>🎆 Happy New Year!!! 🎆</p>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
